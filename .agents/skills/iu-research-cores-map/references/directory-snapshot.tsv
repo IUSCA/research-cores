@@ -1,0 +1,213 @@
+# Directory snapshot. Observed 2026-10-04 with scripts/core_directories.py snapshot.
+# One line per directory listing: source<TAB>name. Regenerate after review; see SKILL.md.
+college	Macromolecular Crystallography Facility
+college	Mass Spectrometry Facility
+college	Physical Biochemistry Instrumentation Facility
+college	Quantum Science and Engineering Center
+college	Smart Experiments & Automated Lab Tech Hub
+ctsi	3D Bioprinting Core (3DBPC)
+ctsi	Behavioral Phenotyping Core (BPC)
+ctsi	Biochemical Genetics Laboratory
+ctsi	Bioinformatics Core
+ctsi	Biomedical and Health Research Services
+ctsi	Biospecimen Collection and Banking Core
+ctsi	Biospecimen Management Core (CTSL/SSF)
+ctsi	Biostatistics Consulting Center
+ctsi	Biostatistics and Health Data Science Core
+ctsi	CISAB Mechanisms of Behavior Laboratory
+ctsi	Cell and Gene Therapy Manufacturing
+ctsi	Cellular Response Technologies Core
+ctsi	Center for Evaluation, Policy, and Research (CEPR)
+ctsi	Center for Genomics and Bioinformatics (CGB)
+ctsi	Center for Medical Genomics (CMG)
+ctsi	Center for Proteome Analysis
+ctsi	Center for Survey Research (CSR)
+ctsi	Chemical Genomics Core Facility
+ctsi	Chemical Synthesis and Organic Drug Lead Development
+ctsi	Clinical Pharmacology Analytical Core (CPAC)
+ctsi	Drosophila Genomics Resource Center
+ctsi	Electron Microscopy Center (IUB-EMC)
+ctsi	Electrophysiology Core
+ctsi	Epidemiology/Study Design Core
+ctsi	Flow Cytometry Core Facility (FCCF)
+ctsi	Flow Cytometry Resource Facility (FCRF)
+ctsi	HANDS In Autism Interdisciplinary Training & Resource Center
+ctsi	Histology and Histomorphometry Core (HHC)
+ctsi	Human Vascular Imaging Core (HVIC)
+ctsi	IU School of Medicine Center for Electron Microscopy (iCEM)
+ctsi	Imaging Research Facility (IRF)
+ctsi	Imaging and Flow Cytometry Core Facility
+ctsi	Immunohistochemistry Research Lab (IHC Research Lab)
+ctsi	In Vivo Therapeutics Core (IVT)
+ctsi	Indiana Center for Biological Microscopy (ICBM)
+ctsi	Indiana Statistical Consulting Center (ISCC)
+ctsi	Indiana University Transgenic and Animal Core (IUTAC)
+ctsi	Infectious Diseases Laboratory (IDL)
+ctsi	Investigational Agent Acquisition Program
+ctsi	Islet and Physiology Core
+ctsi	Laboratory Animal Resource Center (LARC)
+ctsi	Laboratory Animal Resources (LAR)
+ctsi	Laboratory for Biological Mass Spectrometry (LBMS)
+ctsi	Light Microscopy Imaging Center (LMIC)
+ctsi	METACyt Biochemical Analysis Center
+ctsi	Macromolecular Crystallography Facility Integrated with the Crystallization Automation Facility (MCF/CAF)
+ctsi	Mass Spectrometry Facility
+ctsi	NMR Facility
+ctsi	Nutrition and Exercise Research Center (NERC)
+ctsi	Oxidative Stress and Environmental Analysis Core
+ctsi	Physical and Biochemistry Instrumentation Facility (PBIF)
+ctsi	Preclinical Innovation Think Tanks
+ctsi	Preclinical Modeling and Therapeutics Core (PMTC)
+ctsi	Regenstrief Data Services
+ctsi	Research Imaging Core
+ctsi	Research Jam
+ctsi	SNRI Biomarker Core
+ctsi	Translation Core
+ctsi	Translational Research Core (TRC)
+ctsi	Vector Production Facility (IUVPF)
+equipment-unit	(no unit)
+equipment-unit	Borish Center for Ophthalmic Research
+equipment-unit	Center for Genomics and Bioinformatics
+equipment-unit	Clinical Optics Research Lab
+equipment-unit	College of Arts and Sciences
+equipment-unit	Department of Ophthalmology
+equipment-unit	Department of Orthopaedic Surgery
+equipment-unit	Department of Pediatrics
+equipment-unit	Electron Microscopy Center
+equipment-unit	Flow Cytometry Core Facility
+equipment-unit	Geological and Water Survey
+equipment-unit	ISS Alba Fast FLIM microscope system
+equipment-unit	IUSM Bloomington
+equipment-unit	IUSM Indianapolis
+equipment-unit	Imaging Research Facility
+equipment-unit	Indiana Center for Biological Microscopy
+equipment-unit	Indiana Geological and Water Survey
+equipment-unit	Indiana Institute for Biomedical Imaging Sciences
+equipment-unit	Indiana University Molecular Structure Center
+equipment-unit	Indiana University Network Science Institute
+equipment-unit	Integrated Nanosystems Development Institute
+equipment-unit	Interprofessional Simulation Center
+equipment-unit	Irsay Institute
+equipment-unit	Kelley School of Business
+equipment-unit	Laboratory for Biological Mass Spectrometry
+equipment-unit	Light Microscopy Imaging Center
+equipment-unit	Luddy School of Informatics, Computing and Engineering
+equipment-unit	Macromolecular Crystallography Facility
+equipment-unit	Mass Spectrometry Laboratory
+equipment-unit	Mechanical Instrument Services
+equipment-unit	NMR Facility
+equipment-unit	Nanoscale Characterization Facility
+equipment-unit	Neuroscience Core Lab
+equipment-unit	O'Neill School of Public and Environmental Affairs
+equipment-unit	Oral Health Research Institute
+equipment-unit	Physical Biochemistry Instrumentation Facility
+equipment-unit	Physics Machine and Electronics Shops
+equipment-unit	School of Medicine
+equipment-unit	School of Science
+equipment-unit	University Information Technology Services
+ilab	Behavioral Phenotyping Core
+ilab	Bioinformatics Core
+ilab	Biomarker Assay Laboratory
+ilab	Biostatistics Recharge Center
+ilab	CGTM-Vector Production Facility (VPF)
+ilab	CISAB Mechanisms of Behavior Lab
+ilab	CTSI Clinical Research Center
+ilab	CTSI Clinical Research Monitoring
+ilab	Cancer Bioinformatics Core
+ilab	Center for Diabetes and Metabolic Diseases (CDMD) - Data & Analytics Core
+ilab	Center for Medical Genomics
+ilab	Chemical Genomics Core Facility
+ilab	Clinical & Translational Support Lab (CTSL)
+ilab	Collaborative Metabolome Core
+ilab	Electron Microscopy Center
+ilab	HANDS in Autism Core
+ilab	Histology Services
+ilab	Hypoxia Core
+ilab	IU Gene Therapy Testing Laboratory
+ilab	IU Genetic Testing Laboratories
+ilab	IU Mass Spectrometry Facility
+ilab	IUSM Center for Electron Microscopy (iCEM)
+ilab	IUSM Center for Proteome Analysis
+ilab	Imaging Microscopy Core
+ilab	Immunohistochemistry Core
+ilab	Indiana Biobank
+ilab	Indiana Center for Biological Microscopy
+ilab	Infectious Diseases Core
+ilab	Islet & Physiology Core
+ilab	Kit Production Center
+ilab	Laboratory Animal Resource Center
+ilab	Laboratory Animal Resources - Bloomington
+ilab	Laboratory Services
+ilab	Light Microscopy Imaging Center at Indiana University Bloomington
+ilab	Nanoscience Core Facility (NCF)
+ilab	Office of Clinical Research
+ilab	Quality Assurance Core
+ilab	ResNet Participant Recruitment Services
+ilab	Research Jam-Indiana CTSI Patient Engagement Core
+ilab	SNRI Biomarkers Core
+ilab	Small Animal Skeletal Phenotyping Core
+ilab	Small Animal Ultrasound Core
+ilab	Specimen Storage Facility (SSF)
+ilab	Stark Flow Cytometry & Microscopy Core Facility
+ilab	Transgenic Animal Core
+ilab	Translation Core
+iuresearch	Center for Evaluation, Policy, and Research
+iuresearch	Center for Genomics and Bioinformatics
+iuresearch	Center for Survey Research
+iuresearch	Electron Microscopy Center
+iuresearch	IU Nanoscience Core Facility
+iuresearch	Institute for Social and Behavioral Research
+iuresearch	Light Microscopy Imaging Center
+iuresearch	Research Data Commons
+iuresearch	Social Science Research Commons
+iuresearch	The Indiana Statistical Consulting Center
+iusm	Advanced Biomedical Information Technology (Indianapolis)
+iusm	Behavioral Phenotyping (IU School of Medicine Centralized Cores)
+iusm	Bioinformatics (Indianapolis)
+iusm	Biological Microscopy (IU School of Medicine)
+iusm	Biospecimen Collection and Banking (IU Simon Comprehensive Cancer Center)
+iusm	Biospecimen Management (IU School of Medicine)
+iusm	Biostatistics (IU School of Medicine)
+iusm	Biostatistics Recharge Center (IU School of Medicine)
+iusm	Cancer Bioinformatics (IU Simon Comprehensive Cancer Center)
+iusm	Cell and Gene Therapy Manufacturing (IU School of Medicine)
+iusm	Chemical Genomics (IU School of Medicine Centralized Cores)
+iusm	Clinical Pharmacology Analytical Core (IU School of Medicine)
+iusm	Clinical Research (IU School of Medicine)
+iusm	Clinical Research Monitoring (IU School of Medicine)
+iusm	Clinical and Translational Support (IU School of Medicine)
+iusm	Collaborative Metabolome Core (IU School of Medicine Centralized Cores)
+iusm	Electron Microscopy (Bloomington)
+iusm	Electron Microscopy (IU School of Medicine Centralized Cores)
+iusm	Electrophysiology (IU School of Medicine Stark Neurosciences Research Institute)
+iusm	Flow Cytometry Resource (South Bend)
+iusm	Gene Therapy Testing (IU School of Medicine)
+iusm	Genetic Testing (IU School of Medicine)
+iusm	Genomics and Bioinformatics (Bloomington)
+iusm	HANDS in Autism (IU School of Medicine)
+iusm	Histology and Histomorphometry (IU School of Medicine)
+iusm	Human Vascular Imaging (IU School of Medicine)
+iusm	Hypoxia Core (IU School of Medicine)
+iusm	Imaging and Flow Cytometry (South Bend)
+iusm	Immunohistochemistry Core (IU School of Medicine)
+iusm	In-Vivo Therapeutics (IU Simon Comprehensive Cancer Center)
+iusm	Indiana Biobank (IU School of Medicine)
+iusm	Infectious Disease (IU School of Medicine)
+iusm	Islet and Physiology (IU School of Medicine)
+iusm	Laboratory Animal Resource Center (IU School of Medicine)
+iusm	Medical Genomics (IU School of Medicine Centralized Cores)
+iusm	Multiplex Analysis (IU Simon Comprehensive Cancer Center)
+iusm	Ossabaw Swine Resource (IU School of Medicine)
+iusm	Participant Recruitment Services (IU School of Medicine)
+iusm	Preclinical Research Imaging (Indiana Institute for Biomedical Imaging Sciences)
+iusm	Proteome Analysis (IU School of Medicine Centralized Cores)
+iusm	Regenstrief Data Services (Indianapolis)
+iusm	Research Jam (Indiana CTSI)
+iusm	SNRI Biomarker (IU School of Medicine Stark Neurosciences Research Institute)
+iusm	Small Animal Skeletal Phenotyping (IU School of Medicine)
+iusm	Small Animal Ultrasound (Indianapolis)
+iusm	Survey Research (Bloomington)
+iusm	Transgenic Animal Core (IU School of Medicine Centralized Cores)
+iusm	Translation Core (IU School of Medicine)
+iusm	Translational Research (Indianapolis)
+iusm	Vector Production (IU School of Medicine)
