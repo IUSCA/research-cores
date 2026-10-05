@@ -1,0 +1,52 @@
+# Settings for tools/check-skills.py in research-cores.
+# The checker is identical in every repository of this family; only this
+# file differs. See the checker's docstring for what each setting drives.
+
+# Markers this repository defines in README.md.
+markers = ["Required", "Recommended", "Observed", "External", "Practice", "Open item"]
+
+# What counts as naming a binding source for a **Required** statement:
+# IU and core policies, regulations, sponsor terms, and protocols.
+required_source = '''FIN-[A-Z]+-\d+|[A-Z]{2,4}-\d{2,3}|\d+ CFR|NOT-OD-\d+-\d+|PAPPG|Grants Policy Statement|policy|policies|regulation|agreement|terms|protocol|IACUC|IBC|IRB|page'''
+
+# Ids that must also appear in a skill's Sources list when cited in its text.
+cited_ids = ['KB\d{7}', 'NOT-[A-Z]{2}-\d{2}-\d{3}']
+
+# A skill whose oldest Verified date is older than this prints STALE.
+# Core rates and instruments change yearly; the full review is quarterly.
+stale_after_days = 120
+
+# Role addresses that may appear. Add one only after checking that it is a
+# shared office or service address on an official page, not a person's.
+allowed_emails = [
+  "arpo@iu.edu",
+  "cims@iu.edu",
+  "ibc@iu.edu",
+  "ictsi@iu.edu",
+  "ilab-support@agilent.com",
+  "irb@iu.edu",
+  "iudata@iu.edu",
+  "medicine@iu.edu",
+  "ora@iu.edu",
+  "ord@iu.edu",
+  "researchcompliance@iu.edu",
+]
+
+# Hostnames of internal systems that deliver core data. Public skills name
+# the service, not the host.
+internal_hosts = '[\w.-]*bioloop[\w.-]*\.iu\.edu|[\w.-]+\.sca\.iu\.edu'
+
+[links]
+user_agent = "research-cores-skills"
+# These hosts answer scripted requests with 403.
+skip_403_hosts = ["www.ecfr.gov", "rrid.site", "scicrunch.org"]
+skip_urls = []
+
+[freshness]
+# Run each Monday by .github/workflows/freshness.yml.
+checks = ["kb", "links"]
+
+[[freshness.commands]]
+name = "IU core directories"
+run = "python3 .agents/skills/iu-research-cores-map/scripts/core_directories.py check"
+step = "step 2 of MAINTAINING.md"
