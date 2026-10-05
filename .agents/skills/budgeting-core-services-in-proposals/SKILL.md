@@ -11,7 +11,7 @@ websites. Sources are listed at the end.
 This skill covers only the core-specific parts of a proposal. The companion
 `research-funding` repository covers drafting the rest. Route budget and
 compliance questions for the whole proposal to the unit's grant
-administrator; see `routing-and-submitting-at-iu` there.
+administrator; see [`routing-and-submitting-at-iu`](https://github.com/IUSCA/research-funding/tree/main/.agents/skills/routing-and-submitting-at-iu) there.
 
 ## Start early
 
@@ -75,7 +75,7 @@ charge such costs as direct charges" (NSF PAPPG 24-1, Chapter II).
 
 **Required.** Core charges are services, so they sit in the MTDC base and
 carry F&A. IU's base includes "materials, supplies, services, travel" (IU
-Research rates page). The `budgeting-a-proposal` skill in `research-funding`
+Research rates page). The [`budgeting-a-proposal`](https://github.com/IUSCA/research-funding/tree/main/.agents/skills/budgeting-a-proposal) skill in `research-funding`
 covers F&A.
 
 **Open item.** No IU guidance found on 2026-10-04 says whether core

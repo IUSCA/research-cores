@@ -25,11 +25,11 @@ not decide.
 | IRB review for human subjects work at a core | Human Research Protection Program | irb@iu.edu |
 | IBC protocols for recombinant DNA or biohazards | Research Safety Compliance Office | IBC@iu.edu |
 | Other research compliance questions | Office for Research Compliance | researchcompliance@iu.edu |
-| Proposal development help beyond the core's letter | IU Research Development Services (RDS) | RDS request form or ord@iu.edu; see `getting-help-with-proposals` in `research-funding` |
+| Proposal development help beyond the core's letter | IU Research Development Services (RDS) | RDS request form or ord@iu.edu; see [`getting-help-with-proposals`](https://github.com/IUSCA/research-funding/tree/main/.agents/skills/getting-help-with-proposals) in `research-funding` |
 | Proposal budget lines and routing | The unit's grant administrator, or the Office for Research Administration (ORA) | Through the department; ORA contacts are in `getting-help-with-proposals` in `research-funding` |
 | Recharge rate rules | Office of the University Controller, University Cost Accounting | Through FIN-ACC-400's contacts |
-| Storage, Globus, and the SDA for core data | UITS Research Technologies | The `getting-help-from-research-technologies` skill in `research-technologies` |
-| Classifying or sharing core data | Research Data Commons and others | The `getting-help-with-research-data` skill in `research-data` |
+| Storage, Globus, and the SDA for core data | UITS Research Technologies | The [`getting-help-from-research-technologies`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/getting-help-from-research-technologies) skill in `research-technologies` |
+| Classifying or sharing core data | Research Data Commons and others | The [`getting-help-with-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/getting-help-with-research-data) skill in `research-data` |
 
 All contacts **Observed 2026-10-04** on the pages in Sources.
 

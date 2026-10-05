@@ -15,10 +15,10 @@ This skill covers the hand-off from the core. Two companion repositories
 cover the rest:
 
 - `research-technologies` covers IU storage and transfer. Its
-  `storing-and-moving-research-data` skill covers Slate-Project, the
+  [`storing-and-moving-research-data`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/storing-and-moving-research-data) skill covers Slate-Project, the
   Scholarly Data Archive (SDA), and Globus.
 - `research-data` covers classification, management plans, and sharing.
-  Its `classifying-research-data` and `sharing-research-data` skills apply
+  Its [`classifying-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/classifying-research-data) and [`sharing-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/sharing-research-data) skills apply
   here.
 
 ## How long a core keeps data
@@ -80,7 +80,7 @@ classification decides where it may be stored and computed on.
   to a core unless the core and the IRB protocol allow it.
 
 The `classifying-research-data` skill in `research-data` explains IU's
-classifications. The `iu-research-computing-map` skill in
+classifications. The [`iu-research-computing-map`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/iu-research-computing-map) skill in
 `research-technologies` says which IU systems may hold PHI.
 
 ## On receipt
@@ -122,7 +122,7 @@ core early whether it will help. The Center for Proteome Analysis lists
 "upload of all project data to a publicly available source for publication
 submission" as a service (its page, **Observed 2026-10-04**).
 
-The `sharing-research-data` and `planning-data-management-and-sharing`
+The `sharing-research-data` and [`planning-data-management-and-sharing`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/planning-data-management-and-sharing)
 skills in `research-data` cover repositories, sponsor rules, and
 data management and sharing plans.
 

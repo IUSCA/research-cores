@@ -9,14 +9,14 @@ acknowledging cores in papers, and handling the data an instrument produces.
 
 Four repositories cover research at IU. Skills name a companion's skill by
 its repository and skill name, as in "`sharing-research-data` in
-research-data."
+research-data," and link the first mention to the skill on GitHub.
 
-- research-technologies covers clusters, storage, data transfer, and
+- [research-technologies](https://github.com/IUSCA/research-technologies) covers clusters, storage, data transfer, and
   allocations.
-- research-data covers finding, classifying, managing, and sharing research
+- [research-data](https://github.com/IUSCA/research-data) covers finding, classifying, managing, and sharing research
   data.
-- research-funding covers planning and preparing grant proposals.
-- research-cores covers core facilities, their instruments, and the data
+- [research-funding](https://github.com/IUSCA/research-funding) covers planning and preparing grant proposals.
+- **research-cores** (this repository) covers core facilities, their instruments, and the data
   they deliver.
 
 research-funding covers proposal drafting as a whole. This repository covers
