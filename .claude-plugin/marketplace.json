@@ -1,0 +1,21 @@
+{
+  "name": "iusca-research-cores",
+  "owner": {
+    "name": "Indiana University Research Technologies",
+    "url": "https://github.com/IUSCA"
+  },
+  "metadata": {
+    "description": "Skills for IU research core facilities."
+  },
+  "plugins": [
+    {
+      "name": "research-cores",
+      "source": "./",
+      "description": "Skills for IU research core facilities: match research to a core, budget and acknowledge core work, and handle instrument data.",
+      "version": "0.1.0",
+      "category": "research",
+      "homepage": "https://github.com/IUSCA/research-cores",
+      "license": "ECL-2.0"
+    }
+  ]
+}
