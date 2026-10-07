@@ -108,9 +108,6 @@ In Claude Code:
 /plugin install research-cores@iusca-research-cores
 ```
 
-Claude desktop can add the same marketplace, `IUSCA/research-cores`, from its
-plugin settings.
-
 Plugin skills are namespaced, so `matching-research-to-cores` appears as
 `research-cores:matching-research-to-cores`. The agent still picks a skill
 from its description, so you rarely type the name.
@@ -132,7 +129,7 @@ npx skills add <this repository> --list
 npx skills add <this repository> --skill matching-research-to-cores --copy
 ```
 
-Claude Code and Claude desktop users can install the
+Claude Code users can install the
 [plugin](#as-a-claude-plugin). For one session only, run
 `claude --add-dir ~/repos/research-cores`.
 
