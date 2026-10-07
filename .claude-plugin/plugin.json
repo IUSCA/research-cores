@@ -1,0 +1,19 @@
+{
+  "name": "research-cores",
+  "description": "Skills for IU research core facilities: match research to a core, budget and acknowledge core work, and handle instrument data.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Indiana University Research Technologies",
+    "url": "https://github.com/IUSCA"
+  },
+  "homepage": "https://github.com/IUSCA/research-cores",
+  "repository": "https://github.com/IUSCA/research-cores",
+  "license": "ECL-2.0",
+  "keywords": [
+    "indiana-university",
+    "research-cores",
+    "core-facilities",
+    "instruments"
+  ],
+  "skills": "./.agents/skills"
+}
