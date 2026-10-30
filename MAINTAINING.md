@@ -31,7 +31,7 @@ a full review, the checks that drive it, and when to run it.
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
-Every Monday, `freshness.yml` runs `tools/check-skills.py --freshness`. Here
+On the 1st of each month, `freshness.yml` runs `tools/check-skills.py --freshness`. Here
 that means the KB check, the link check, and `core_directories.py check`.
 When it finds NEW or GONE names, or `STALE`, `BROKEN`, or `ERROR` lines, it
 opens an issue labeled `freshness`, or comments on the one already open.

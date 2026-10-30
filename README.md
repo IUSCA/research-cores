@@ -143,7 +143,7 @@ Claude Code users can install the
   the office or core that can answer it.
 - `tools/check-skills.py` runs the offline checks: format, markers, sources,
   age, and what stays out. `--kb` and `--links` add the network checks, and
-  `--freshness` runs every check this repository's weekly workflow runs.
+  `--freshness` runs every check this repository's monthly workflow runs.
   `tools/check-skills.toml` holds this repository's settings.
 - The directory helper,
   `.agents/skills/iu-research-cores-map/scripts/core_directories.py check`,
