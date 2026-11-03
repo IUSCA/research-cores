@@ -20,14 +20,17 @@ a full review, the checks that drive it, and when to run it.
 
 ## When to review
 
-| Trigger | Scope |
-| --- | --- |
-| Any agent finds a wrong claim during real work | That claim, right away, in its own commit |
-| An open issue labeled `freshness` | [Working a freshness issue](#working-a-freshness-issue) |
-| Every quarter (January, April, July, October) | The full review below |
-| Each July, after new fiscal-year rates take effect | The rate examples in `using-iu-research-cores` |
-| A new CTSA award or S10 cycle | `acknowledging-research-cores` and `budgeting-core-services-in-proposals` |
-| NIH or NSF issues a new forms version or PAPPG | `budgeting-core-services-in-proposals` |
+| Trigger | Scope | How you notice |
+| --- | --- | --- |
+| Monthly | The `freshness` issue, with the directory check's NEW and GONE names ([step 2](#2-check-the-directories)) | The `freshness` issue opened on the 1st, and the month's tracking issue on iu-research |
+| Any agent finds a wrong claim during real work | That claim, right away, in its own commit | An issue on this repository |
+| Every quarter (January, April, July, October) | The full review below, after the monthly one | The calendar, and the month's tracking issue |
+| Each July, after new fiscal-year rates take effect | The rate examples in `using-iu-research-cores` | The calendar |
+| A new CTSA award or S10 cycle | `acknowledging-research-cores` and `budgeting-core-services-in-proposals` | CTSA and S10 award news |
+| NIH or NSF issues a new forms version or PAPPG | `budgeting-core-services-in-proposals` | The NIH Guide table of contents, and NSF news |
+
+No script notices the last two. The family maintainer assigns someone to
+each feed, as the family runbook's "Watching for events" says.
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
@@ -38,50 +41,26 @@ opens an issue labeled `freshness`, or comments on the one already open.
 
 ## Working a freshness issue
 
-A person or their agent works each `freshness` issue by hand. Nothing
-edits a skill on its own, because every fixed claim needs someone to read
-its source. An agent can do all of this; give it this section and the
-issue. A person reviews and merges the pull request.
+Follow the family runbook,
+[monthly-review.md](https://github.com/IUSCA/iu-research/blob/main/docs/monthly-review.md).
+It has the general steps: how to work each kind of line, the KB snapshot
+and Verified-line rules, commits, and the pull request. This section adds
+only what is specific to this repository.
 
-1. Make a branch from `main`. Run `tools/check-skills.py --freshness`
-   again. The issue may be days old, and some lines may have cleared.
-2. Work each line by kind:
-   - **STALE, KB article changed.** Read the whole article with
-     `iukb.py read KB0123456` (in research-technologies'
-     `searching-the-iu-knowledge-base` skill). Find every claim citing it,
-     in each skill the line names and in that skill's `references/`.
-     Fix what changed. Then record the reading with
-     `tools/check-skills.py --kb-snapshot KB0123456`.
-   - **INFO, text unchanged.** The article was touched but its text was
-     not. Record it with `--kb-snapshot KB0123456`. No skill changes.
-   - **STALE, not found by KB search.** The search runs without logging
-     in, so the article was retired, renumbered, or made login-only.
-     Search for its replacement. If there is none, name the article
-     without a link, with the date it went missing. Never quote or
-     summarize a login-only article, even if you can read it.
-   - **STALE, Verified date too old.** Re-read every source the skill
-     cites, then update its Verified line.
-   - **BROKEN.** Run `--links` again; a single failure is often transient.
-     If it still fails, find the page's new address. If the page is gone,
-     find another source or make the claim an open item.
-   - **CHANGED.** Run the snapshot script named in the line. Update the
-     catalog or directory file it compares against, and every skill that
-     names what changed.
-3. A claim the new source no longer supports is fixed, cut, or turned into
-   an open item in `docs/open-items.md`. A question the source now settles
-   leaves the open items.
-4. Update the Verified line of each skill you edited. For an article with
-   a snapshot entry, `--kb-snapshot` is the record, so the Verified line
-   does not need to list it as a partial re-read.
-5. Run `tools/check-skills.py --freshness` until no STALE, BROKEN, or
-   CHANGED line remains. Commit one skill per commit, with the snapshot
-   change in the same commit as the skill it supports.
-6. Open a pull request that says `Closes #<issue>`. List each line and
-   what you did with it: fixed, unchanged, or opened as an item.
+- `--freshness` also runs `core_directories.py check`. When it finds a NEW
+  or GONE name, the report prints a `CHANGED` line for it. The script's
+  own lines just above it name the cores.
+- Work NEW and GONE names with [step 2](#2-check-the-directories) of the
+  full review.
+- Do not regenerate the directory snapshot when nothing is NEW or GONE.
+  Only its date would change.
+- KB0025237 is also cited in research-technologies. Look for a note on the
+  tracking issue before you re-read it.
 
 ## Full review
 
-Work on a branch. Make one commit per skill, as `CONTRIBUTING.md` asks.
+Work on a branch. Commit as the family runbook's "Commits" section says:
+one skill per commit, with each KB snapshot in the commit it supports.
 
 ### 1. Lint
 
@@ -93,7 +72,8 @@ tools/check-skills.py
 statement with no source, an **Observed** statement with no date, a
 personal email address, an internal hostname, and a skill with no README
 row or trigger prompt. `STALE` lines name a skill whose Verified date is
-over 120 days old. Re-read its Sources in step 3.
+over 120 days old. Re-read its Sources in step 3, and update its Verified
+line by the family runbook's "Rules that trip people up".
 
 ### 2. Check the directories
 
@@ -106,7 +86,8 @@ For each NEW name, find the core's own page. Add it to
 `references/catalog.md` if it offers services to other labs. For each GONE
 name, check whether the core closed, renamed, or moved. Record the change in
 `references/renamed-and-retired.md`. Then regenerate the snapshot. It
-carries its own dated header:
+carries its own dated header. Skip this when nothing is NEW or GONE, since
+only the date would change:
 
 ```bash
 $s snapshot > .agents/skills/iu-research-cores-map/references/directory-snapshot.tsv
@@ -125,8 +106,8 @@ acknowledgment texts change most often.
 tools/check-skills.py --links
 ```
 
-`BROKEN` lines usually mean a core moved its site. Search for the new page
-before removing the citation.
+`BROKEN` lines usually mean a core moved its site. Work them as the family
+runbook's step 3 says.
 
 ### 4. Check RRIDs and award numbers
 
