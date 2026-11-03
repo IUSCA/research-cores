@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A question about an IU research core
+    url: https://equipment-tools.research.iu.edu/contact/index.html
+    about: Ask Research Equipment and Tools about finding or using a core. Issues here are for the skills, not a help desk.
