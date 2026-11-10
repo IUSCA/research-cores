@@ -5,8 +5,8 @@ description: Get access to and work with an Indiana University research core fac
 
 # Using IU research cores
 
-Verified 2026-10-04 against IU core websites, IUSM's iLab page, and IU
-policy. Sources are listed at the end.
+Verified 2026-11-10 (IUSM iLab page only). Other sources were verified 2026-10-04.
+Sources are listed at the end.
 
 Each core sets its own rules. This skill gives the common pattern and the
 questions to ask. The core's own policy page decides.
@@ -49,7 +49,7 @@ at https://iu.ilab.agilent.com. These rules come from the IUSM iLab page,
   requesting services through iLab," but core policies vary.
 - **Estimates.** iLab cannot produce an estimate for someone who has not
   registered.
-- **Help.** iLab support is ilab-support@agilent.com.
+- **Help.** iLab support is ilab-support@agilent.com ([IUSM iLab page](https://medicine.iu.edu/service-cores/ilab)).
 
 ## Approvals the core will ask for
 
