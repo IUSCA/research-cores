@@ -133,6 +133,7 @@ numbers.
   Investigate each one on the core's own website. Update
   `references/catalog.md` and `references/renamed-and-retired.md`. Then
   regenerate the snapshot with `scripts/core_directories.py snapshot`.
+  Skip the snapshot when nothing is NEW or GONE, as `MAINTAINING.md` says.
 - The IUSM search page pages its results with a `CurrentPage` parameter. If
   `iusm` returns only 12 cores, the page changed; fix the script.
 - **Open item.** Three hosts serve Research Equipment and Tools with
